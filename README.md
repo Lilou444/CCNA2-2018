@@ -8,5 +8,8 @@ Dépôt git dédié aux rendu du cours de CCNA2
 
 -   1 fichier par rendu écris en  [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)  avec un nom explicite.
 -   Dossier contenant des captures si nécéssaire.
--   Fichier members demandé.
 
+
+## Membre 
+
+Phébidias Leïla 
