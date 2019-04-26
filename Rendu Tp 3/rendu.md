@@ -92,22 +92,16 @@ Même démarche que le lab1 en rapport avec la table d'adressage du lab3
 
 - configuration du OSPF
 
+    > #conf t Activatio OSPF (config)# router ospf <ID OSPF> (config-router)# router-id 1.1.1.1 (config-router)# network <NETWORK
+    > ADDRESS> <NETWORK MASK> area <ID AREA> <=> (config-router)# network
+    > 10.6.100.0 0.0.0.3 area 0 //0.0.0.3 == 255.255.255.252 //0.0.0.255 == 255.255.255.0
+    > 
+    > /vérification de l'état OSPF
+    > #show ip protocols
+    > #show ip ospf interface
+    > #show ip ospf neigh
+    > #show ip ospf border-routers
 
->    conf t
->     Activation du OSPF
->     (config)# router ospf <ID OSPF>
->     (config-router)# router-id 1.1.1.1
->     (config-router)# network <NETWORK ADDRESS> <NETWORK MASK> area <ID AREA>
->     <=> (config-router)# network 10.6.100.0 0.0.0.3 area 0
->     //0.0.0.3 == 255.255.255.252
->     //0.0.0.255 == 255.255.255.0
->     
->     //Vérification de l'état OSPF
->     #show ip protocols
->     #show ip ospf interface
->     #show ip ospf neigh
->     #show ip ospf border-routers
+- Vérification des pings
 
-
-- Vérification des pings 
 ![enter image description here](https://github.com/Lilou444/CCNA2-2018/blob/master/Rendu%20Tp%203/captures/Capture7.png)
