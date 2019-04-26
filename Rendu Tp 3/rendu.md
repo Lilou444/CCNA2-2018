@@ -92,10 +92,8 @@ Même démarche que le lab1 en rapport avec la table d'adressage du lab3
 
 - configuration du OSPF
 
-//Passer en mode configuration
 
-# conf t
-
+>    conf t
 >     Activation du OSPF
 >     (config)# router ospf <ID OSPF>
 >     (config-router)# router-id 1.1.1.1
