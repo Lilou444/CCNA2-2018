@@ -11,10 +11,7 @@ $diff = array();
 $return = 0;
 
 exec("git diff --name-only $params[0] $params[1] 2> /dev/null", $diff, $return);
-if ($return > 0) {
-  echo "Could not run git diff\n\n";
-  exit(1);
-}
+
 $filename_pattern = '/\.php$/';
 foreach ($diff as $file) {
     if (!preg_match($filename_pattern, $file)) {
