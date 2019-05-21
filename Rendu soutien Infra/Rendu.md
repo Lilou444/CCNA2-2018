@@ -16,12 +16,13 @@
 **II. Hooks : git**
 
 
-
-- Pre-receive 
+Ici tu trouveras le fichier hook en php : [pre-receive](https://github.com/Lilou444/CCNA2-2018/blob/master/Rendu%20soutien%20Infra/pre-receive)
 
 
 Push error : 
+
 ![enter image description here](https://github.com/Lilou444/CCNA2-2018/blob/master/Rendu%20soutien%20Infra/capture/pusherror.png)
 
-Push réussi : 
+Push réussi :
+
 ![enter image description here](https://github.com/Lilou444/CCNA2-2018/blob/master/Rendu%20soutien%20Infra/capture/Push.png)
