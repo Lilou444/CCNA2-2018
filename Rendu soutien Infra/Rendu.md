@@ -8,9 +8,20 @@
 **BUT DU PROJET**:
 
 - Mise en place d'un serveur Git 
--  Utilisation de la fonctionnalité : hooks 
+- Utilisation de la fonctionnalité : hooks 
 
 
 **I.Mise en place du Serveur Git**
-ggggg
+
 **II. Hooks : git**
+
+
+
+- Pre-receive 
+
+
+Push error : 
+![enter image description here](https://github.com/Lilou444/CCNA2-2018/blob/master/Rendu%20soutien%20Infra/capture/pusherror.png)
+
+Push réussi : 
+![enter image description here](https://github.com/Lilou444/CCNA2-2018/blob/master/Rendu%20soutien%20Infra/capture/Push.png)
